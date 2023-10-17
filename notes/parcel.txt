@@ -1,0 +1,21 @@
+#PARCEL
+
+Dev Build
+Local Server
+HMR- Hot Module Reload
+File Watching algorithm -- written in c++
+Caching - Faster Builds
+Image Optimization
+Minification
+Bundling 
+Compressing
+Content Hashing
+Code splitting
+Differential Bundling - support older browser
+Diagnostics
+Error Handling
+https
+Tree Shaking - remove unused code
+Different dev and production build
+
+***remove main in package.json for build

@@ -6,26 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
     <div id="native-root"></div>
     <div id="root"></div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
+ -->
 
 
     <!-- Native javascript -->
-    <script>
+    <!-- <script>
         const nativeRoot = document.getElementById('native-root');
 
         const nH1 = document.createElement('h1');
         nH1.innerHTML = 'I am from native javascript';
 
         nativeRoot.appendChild(nH1);
-    </script>
-    <script src="./app.js"></script>
+    </script> -->
+    <script type="module" src="./App.js"></script>
 </body>
 
 </html>
