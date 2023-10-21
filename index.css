@@ -30,10 +30,6 @@
   margin: 10px;
 }
 
-.search-bar {
-  padding: 20px;
-}
-
 .restaurant-container {
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +38,7 @@
 .restaurant-card {
   padding: 5px;
   margin: 5px;
-  width: 200px;
+  width: 193px;
   background-color: #f0f0f0;
 }
 
@@ -53,4 +49,35 @@
 
 .res-logo {
   width: 100%;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.login-btn {
+  padding: 0px 20px;
+  color: white;
+  font-size: large;
+  background-color: blue;
+}
+
+.head-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.head-section .filter,.search-bar {
+  padding: 10px;
+  margin: 10px;
 }
